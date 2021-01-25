@@ -1,10 +1,16 @@
 import React from 'react'
+import logo from '../assets/images/bootstrap-logo.svg'
 
 const Navbar = () => {
     return (
-        <div>
-            <h1></h1>
-        </div>
+        <nav className="navbar navbar-light bg-light">
+            <div className="container">
+                <a className="navbar-brand d-flex align-items-center" href="/">
+                <img src={logo} alt="" width="30" height="24" className="d-inline-block align-top"/>
+                <span className="ms-2" >Figure Catalog</span>
+                </a>
+            </div>
+        </nav>
     )
 }
 
