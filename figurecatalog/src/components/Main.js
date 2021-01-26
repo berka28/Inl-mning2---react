@@ -12,7 +12,7 @@ const Main = () => {
                     <Form figures={figures} setFigures={setFigures} />
                 </div>
                 <div className="col-7 ps-5">
-                    <FigureCatalog/>
+                    <FigureCatalog figures={figures} setFigures={setFigures} />
                 </div>
             </div>
            

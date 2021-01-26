@@ -16,3 +16,15 @@
 #figure-catalog i {
     margin-left: 1rem;
 }
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.in-stock {
+    color:chartreuse;
+}
+
+.out-of-stock {
+    color:red;
+}
